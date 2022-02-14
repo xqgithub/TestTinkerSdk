@@ -1,0 +1,35 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: OJFmxm68yhPuEwBZXJnD8Vaaw3o=
+SHA1-Digest-Manifest: PhzN7csTSro5XjdC5xWyp/SR/mM=
+Created-By: 1.8.0_60 (Oracle Corporation)
+
+Name: assets/package_meta.txt
+SHA1-Digest: 8+AxSSAGZ7r3zySeUuPTncGqVKM=
+
+Name: classes2.dex
+SHA1-Digest: q+nvM5vWh9NC1rtpgvVw5unNKzA=
+
+Name: lib/armeabi-v7a/libnativehaha.so
+SHA1-Digest: G+uSL/Q5t+tVbwRwMK5ZKj4Fx5U=
+
+Name: assets/so_meta.txt
+SHA1-Digest: w4Ja5x8aegqR/xM3WDHjhprf08Y=
+
+Name: lib/arm64-v8a/libnativehaha.so
+SHA1-Digest: aYCqfplWk60zkUeuw/KyUukS5Oc=
+
+Name: classes.dex
+SHA1-Digest: R7hsyHUNcmrF8TOYya3UZG2Hrmc=
+
+Name: assets/dex_meta.txt
+SHA1-Digest: 6J6ujjwhEgeeKkhaMNg6tgNejyo=
+
+Name: lib/x86_64/libnativehaha.so
+SHA1-Digest: lcqL1gsxcyjqyWpjPI8CkuinEpM=
+
+Name: lib/x86/libnativehaha.so
+SHA1-Digest: XQJz+KqMEqwOFnzs4Vwdcz9cpBs=
+
+Name: test.dex
+SHA1-Digest: 9jlJZZ+dKgQJh75auwJdN+fX1hg=
+

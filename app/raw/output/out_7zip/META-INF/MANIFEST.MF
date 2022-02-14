@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Created-By: 1.8.0_60 (Oracle Corporation)
+
+Name: assets/package_meta.txt
+SHA1-Digest: kw51/PQ4E4qR9L2S/NBxuZX1/H0=
+
+Name: classes2.dex
+SHA1-Digest: pFnOfjNMW9L3XCQ1ustLPhIVbjc=
+
+Name: lib/armeabi-v7a/libnativehaha.so
+SHA1-Digest: IF7FpI/49qjnQZOOYUHvPhBZRbw=
+
+Name: assets/so_meta.txt
+SHA1-Digest: ExiZcYmiw5Blc3yx8yMADnEPPPo=
+
+Name: lib/arm64-v8a/libnativehaha.so
+SHA1-Digest: eBNiUkgH+jN+z4XmkgFTUmkmDAI=
+
+Name: classes.dex
+SHA1-Digest: TYMToQoJuED3BsuXDabbzJBf+To=
+
+Name: assets/dex_meta.txt
+SHA1-Digest: rlkwWg7vi++wo9MyxKcGgufH+x4=
+
+Name: lib/x86_64/libnativehaha.so
+SHA1-Digest: h00C32GZDo8VWV+3DkF2Aqw78Ik=
+
+Name: lib/x86/libnativehaha.so
+SHA1-Digest: TVjgOfcxpt7cIBg32UaKymVrQWs=
+
+Name: test.dex
+SHA1-Digest: JQ6I/qo62WRfO8A5LZy1vaQmpYE=
+

@@ -1,0 +1,4 @@
+lib/arm64-v8a/libnativehaha.so, oldSize=0, newSize=243856, diffSize=0
+lib/armeabi-v7a/libnativehaha.so, oldSize=0, newSize=124600, diffSize=0
+lib/x86/libnativehaha.so, oldSize=0, newSize=235240, diffSize=0
+lib/x86_64/libnativehaha.so, oldSize=0, newSize=260512, diffSize=0

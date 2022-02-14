@@ -1,0 +1,2 @@
+include ':app',':testtinkerlib'
+rootProject.name = "TestTinkerSdk"

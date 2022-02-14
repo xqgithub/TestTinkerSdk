@@ -1,0 +1,4 @@
+libnativehaha.so,lib/arm64-v8a,9bc23e9fea331bbb2ec92d7f4a79b564,0,0
+libnativehaha.so,lib/armeabi-v7a,843a36d6744ed7df6aaf5609634ecc9f,0,0
+libnativehaha.so,lib/x86,ceb849f07b43d27dda0ac2c6947dfb49,0,0
+libnativehaha.so,lib/x86_64,09a641016587bfe016f99a6cac4aab0f,0,0

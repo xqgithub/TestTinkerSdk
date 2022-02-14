@@ -1,0 +1,52 @@
+<resources>
+    <string name="quit">返回</string>
+    <string name="settings">设置</string>
+    <string name="help">帮助</string>
+    <string name="string_help_text">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。</string>
+    <string name="error_nonetwork">手机无网络</string>
+    <string name="prompt_requestfailed">请求失败:</string>
+    <string name="prompt_busynetwork">网络繁忙:</string>
+
+    <!-- 英文是默认语言 其余的语言种类都是扩展包 -->
+    <string name="app_name">AiFun</string>
+    <string name="token_is_error">token已过期，请重新登录使用!</string>
+    <string name="updateapp_failure">更新失败</string>
+    <!-- Loading弹窗 -->
+    <string name="loading">请稍候</string>
+    <string name="submitSuccess">提交成功</string>
+    <string name="submitFail">提交失败</string>
+    <string name="back">返回</string>
+    <string name="feedbackConfirmMsg">谢谢您宝贵的意见，我们会继续努力</string>
+
+    <string name="buttonAlbumTitle">相册</string>
+    <string name="buttonTakePhotoTitle">拍照</string>
+    <string name="buttonCancel">取消</string>
+
+    <string name="myhomework">我的作业</string>
+
+
+    <!-- 用户协议 和 隐私政策 -->
+    <string name="protocol_useragreement_url">https://doccdncf.talk-cloud.net/static/Agreement/%s/registration-user-cn.html</string>
+    <string name="protocol_userprivacypolicy_url">https://doccdncf.talk-cloud.net/static/Agreement/%s/registration-privacy-cn.html</string>
+    <string name="service_and_privacy">服务协议和隐私政策</string>
+    <string name="service_and_privacy_content">欢迎您使用%s！我们非常重视您的个人信息和隐私保护，特别提示您阅读并充分理解《用户协议》&#038;《隐私政策》各条款。如您同意《用户协议》及《隐私政策》，请您点击“同意”开始使用我们的产品和服务，我们将尽全力保护您的个人信息安全。</string>
+    <string name="service_and_privacy_content2">为了向您提供一键分享服务，我们的产品集成友盟+ U-Share SDK，友盟+SDK需要收集您的设备Mac地址、唯一设备识别码（IMEI/android ID/IDFA/OPENUDID/GUID
+        、SIM 卡 IMSI 信息）以及您需要分享的社交账号公开信息，以便完成一键分享服务。并通过地理位置校准报表数据准确性，提供基础反作弊服务。为了您的信息安全，我们已与第三方SDK服务商进行数据安全保密约
+        定，这些公司会严格遵守我们的数据隐私和安全要求。除非得到您的同意，我们不会与其共享您的个人身份信息。为便于您更好地了解【友盟+】采集的数据类型及用途，以及如何保护您的个人信息，您可以登录
+        https://www.umeng.com/policy了解【友盟+】隐私权政策。</string>
+    <string name="service_and_privacy_content3">您需要同意《服务协议》&amp;《隐私协议》才能继续使用我们的App哦～</string>
+    <string name="service_and_privacy_agree">同意</string>
+    <string name="service_and_privacy_agree2">去同意</string>
+    <string name="service_and_privacy_disagree">不同意</string>
+    <string name="service_and_privacy_disagree2">退出</string>
+
+
+    <string name="personalsettings_useragreement">用户协议</string>
+    <string name="personalsettings_privacypolicy">隐私政策</string>
+
+    <string name="language_name_default">跟随系统</string>
+    <string name="language_name_zh_cn">简体中文</string>
+    <string name="language_name_zh_tw">繁体中文</string>
+    <string name="language_name_en">英文</string>
+
+</resources>

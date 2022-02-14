@@ -1,0 +1,67 @@
+-----------------------Tinker patch begin-----------------------
+configuration: 
+oldApk:D:\xiaoqi\work\workspace\TestTinkerSDK\app\raw\old.apk
+newApk:D:\xiaoqi\work\workspace\TestTinkerSDK\app\raw\new.apk
+outputFolder:D:\xiaoqi\work\workspace\TestTinkerSDK\app\raw\output
+isIgnoreWarning:false
+isProtectedApp:false
+7-ZipPath:7za
+useSignAPk:true
+package meta fields: 
+filed name:patchMessage, filed value:classes.dex
+filed name:platform, filed value:all
+dex configs: 
+dexMode: jar
+dexPattern:classes.*\.dex
+dexPattern:assets/secondary-dex-.\.jar
+dex loader:com.universal.aifun.SampleApplication
+dex loader:com.tencent.tinker.loader.*
+lib configs: 
+libPattern:lib/.*/.*\.so
+resource configs: 
+resPattern:assets/.*
+resPattern:resources\.arsc
+resPattern:res/.*
+resPattern:AndroidManifest\.xml
+resIgnore change:assets/sample_meta\.txt
+largeModSize:10000000kb
+useApplyResource:false
+
+Analyze old and new apk files:
+old apk: old.apk, size=4790814, md5=b4a2d09fef140ea0236cde33e16ae896
+new apk: new.apk, size=5135374, md5=48315590f27fb8f06caa0b9af9e95f30
+
+Manifest has no changes, skip rest decode works.
+UnZipping apk to D:\xiaoqi\work\workspace\TestTinkerSDK\app\raw\output\old
+UnZipping apk to D:\xiaoqi\work\workspace\TestTinkerSDK\app\raw\output\new
+Check for loader classes in dex: classes.dex
+Check for loader classes in dex: classes2.dex
+BsDiffDecoder:write meta file data: libnativehaha.so,lib/arm64-v8a,9bc23e9fea331bbb2ec92d7f4a79b564,0,0
+BsDiffDecoder:write meta file data: libnativehaha.so,lib/armeabi-v7a,843a36d6744ed7df6aaf5609634ecc9f,0,0
+BsDiffDecoder:write meta file data: libnativehaha.so,lib/x86,ceb849f07b43d27dda0ac2c6947dfb49,0,0
+BsDiffDecoder:write meta file data: libnativehaha.so,lib/x86_64,09a641016587bfe016f99a6cac4aab0f,0,0
+
+Gen classes.dex patch file:D:\xiaoqi\work\workspace\TestTinkerSDK\app\raw\output\tinker_result\classes.dex, size:904, md5:21d32d3df37d07be23ea432f2b8a7dc7
+Verifying if patched new dex is logically the same as original new dex: new/classes.dex ...
+
+Gen classes.dex for dalvik full dex file:D:\xiaoqi\work\workspace\TestTinkerSDK\app\raw\output\tempPatchedDexes\classes.dex, size:2254588, md5:2e5b5ea8d418ae6bf3b7ae66efe57d8a
+
+Gen classes2.dex patch file:D:\xiaoqi\work\workspace\TestTinkerSDK\app\raw\output\tinker_result\classes2.dex, size:9862, md5:186fc7919ddeffd6b32934238d8be53f
+Verifying if patched new dex is logically the same as original new dex: new/classes2.dex ...
+
+Gen classes2.dex for dalvik full dex file:D:\xiaoqi\work\workspace\TestTinkerSDK\app\raw\output\tempPatchedDexes\classes2.dex, size:7600080, md5:1f71f1d018ec7ac3dcef5f1da8b705ac
+DexDecoder:write meta file data: classes.dex,,2e5b5ea8d418ae6bf3b7ae66efe57d8a,2e5b5ea8d418ae6bf3b7ae66efe57d8a,21d32d3df37d07be23ea432f2b8a7dc7,3734614540,576825822,jar
+DexDecoder:write meta file data: classes2.dex,,1f71f1d018ec7ac3dcef5f1da8b705ac,1f71f1d018ec7ac3dcef5f1da8b705ac,186fc7919ddeffd6b32934238d8be53f,1094074464,3989615292,jar
+
+Add test install result dex: D:\xiaoqi\work\workspace\TestTinkerSDK\app\raw\output\tinker_result\test.dex, size:584
+DexDecoder:write test dex meta file data: test.dex,,56900442eb5b7e1de45449d0685e6e00,56900442eb5b7e1de45449d0685e6e00,0,0,0,jar
+Generate unsigned apk: patch_unsigned.apk
+Signing apk: patch_signed.apk
+Signing key algorithm is SHA1withRSA
+Try use 7za to compress the patch file: patch_signed_7zip.apk, will cost much more time
+Current 7za path:7za
+7a patch file failed, you should set the zipArtifact, or set the path directly
+Result: final signed patch result: D:\xiaoqi\work\workspace\TestTinkerSDK\app\raw\output\patch_signed.apk, size=327667
+Tinker patch done, total time cost: 4.494000s
+Tinker patch done, you can go to file to find the output D:\xiaoqi\work\workspace\TestTinkerSDK\app\raw\output
+-----------------------Tinker patch end-------------------------
